@@ -1,1 +1,24 @@
 {% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+       <div class="text-center">
+        <img src="{% static 'core/images/binod.jpg' %}" alt="ProfilePic" class="img-thumbnail" width="250px" height="150px">
+       </div>
+</div>
+<div class="text-white mt-5 mx-5" style=" text-align: justify;">
+    <h1 class="fw-bold st-font">Hello,</h1>
+  <div class="px-4 lh-lg">
+    <p style="text-indent:100px;">
+        I'm <strong class="text-warning">Binod Shrestha</strong> a Python and Django developer with a Bachelor's degree in Computer Applications from Tribhuvan University.My expertise includes developing backend functionalities, integrating databases, and creating user-friendly interfaces.<p>I have 6 months of experience in building web applications and am currently working at <strong class="text-warning">XYZ company</strong>. I specialize in backend development, database integration, and frameworks like Django and Django Rest Framework. My projects include a task management app with user authentication and a blogging platform featuring category and comment management.</p>
+          <p>
+           My Skilled in tools like Git and Postman, and also I am passionate about creating efficient and user-friendly solutions and look forward to growing as part of a dynamic team.
+        </p>
+    </p>
+</div>
+<div class="text-center">
+    <a href="" class="btn btn-outline-warning my-3 me-3 fw-bold">Hire Me</a>
+    <a href="" class="btn btn-outline-info my-3 fw-bold">Contact</a>
+</div>
+</div>
+{% endblock content %}
